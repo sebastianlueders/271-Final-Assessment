@@ -34,7 +34,7 @@ public class TrainLine {
     }
 
     /*
-     * This recursive method is used to concatenate the next station's in front of the current station
+     * This recursive method is used to concatenate the next station's in front of the current station if the head station is not the only station (determined by overloaded alternative method)
      */
     public String reverseListStations(Station station) {
         String result; // Stores the result of the method's operation
